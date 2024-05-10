@@ -42,7 +42,6 @@ list(APPEND ep
     libmysofa
     xxhash
     openssl
-    libssh
     libsrt
     highway
     libjxl

@@ -5,7 +5,6 @@ ExternalProject_Add(ffmpeg
         bzip2
         lcms2
         openssl
-        libssh
         libsrt
         libass
         libbluray
@@ -82,7 +81,7 @@ ExternalProject_Add(ffmpeg
         --enable-openssl
         --enable-libxml2
         --enable-libmysofa
-        --enable-libssh
+        --disable-libssh
         --enable-libsrt
         --enable-libvpl
         --enable-libjxl
