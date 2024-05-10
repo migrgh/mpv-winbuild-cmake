@@ -35,7 +35,6 @@ list(APPEND ep
     glslang
     vulkan-header
     vulkan
-    libopenmpt
     shaderc
     glad
     fast_float

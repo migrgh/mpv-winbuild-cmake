@@ -12,7 +12,6 @@ ExternalProject_Add(ffmpeg
         harfbuzz
         x264
         libvpl
-        libopenmpt
         shaderc
         libplacebo
         libva
@@ -43,7 +42,7 @@ ExternalProject_Add(ffmpeg
         --enable-libfontconfig
         --enable-libharfbuzz
         --disable-libmodplug
-        --enable-libopenmpt
+        --disable-libopenmpt
         --disable-libmp3lame
         --enable-lcms2
         --disable-libopus
