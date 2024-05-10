@@ -28,12 +28,10 @@ ExternalProject_Add(mpv-release
         luajit
         rubberband
         uchardet
-        openal-soft
         vulkan
         shaderc
         libplacebo
         spirv-cross
-        libsdl2
     URL ${LINK}
     SOURCE_DIR ${SOURCE_LOCATION}
     CONFIGURE_COMMAND ${EXEC} CONF=1 meson setup <BINARY_DIR> <SOURCE_DIR>
@@ -51,14 +49,14 @@ ExternalProject_Add(mpv-release
         -Dpdf-build=enabled
         -Dlua=enabled
         -Djavascript=disabled
-        -Dsdl2=enabled
+        -Dsdl2=disabled
         -Dlibarchive=disable
         -Dlibbluray=enabled
         -Ddvdnav=enabled
         -Duchardet=enabled
         -Drubberband=enabled
         -Dlcms2=enabled
-        -Dopenal=enabled
+        -Dopenal=disabled
         -Dspirv-cross=enabled
         -Dvulkan=enabled
         -Dvapoursynth=disabled

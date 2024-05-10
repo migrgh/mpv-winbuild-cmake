@@ -53,8 +53,6 @@ list(APPEND ep
     glslang
     vulkan-header
     vulkan
-    libsdl2
-    openal-soft
     libopenmpt
     shaderc
     glad

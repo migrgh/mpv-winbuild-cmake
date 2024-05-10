@@ -13,12 +13,10 @@ ExternalProject_Add(mpv
         luajit
         rubberband
         uchardet
-        openal-soft
         vulkan
         shaderc
         libplacebo
         spirv-cross
-        libsdl2
     GIT_REPOSITORY https://github.com/mpv-player/mpv.git
     SOURCE_DIR ${SOURCE_LOCATION}
     GIT_CLONE_FLAGS "--filter=tree:0"
@@ -38,14 +36,14 @@ ExternalProject_Add(mpv
         -Dpdf-build=enabled
         -Dlua=enabled
         -Djavascript=disabled
-        -Dsdl2=enabled
+        -Dsdl2=disabled
         -Dlibarchive=disable
         -Dlibbluray=enabled
         -Ddvdnav=enabled
         -Duchardet=enabled
         -Drubberband=enabled
         -Dlcms2=enabled
-        -Dopenal=enabled
+        -Dopenal=disabled
         -Dspirv-cross=enabled
         -Dvulkan=enabled
         -Dvapoursynth=disabled

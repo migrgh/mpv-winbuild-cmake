@@ -164,7 +164,6 @@ to update flags which will pass on gcc, g++ and etc.
     - x265 (multilib)
     - uchardet
     - rubberband (with libsamplerate)
-    - openal-soft
     - mpv
     - luajit
     - libvpx
@@ -207,7 +206,6 @@ to update flags which will pass on gcc, g++ and etc.
     - zstd
     - expat
     - openssl
-    - libsdl2
     - bzip2
 
 - Zip
