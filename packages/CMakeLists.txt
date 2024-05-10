@@ -28,7 +28,6 @@ list(APPEND ep
     amf-headers
     nvcodec-headers
     xxhash
-    highway
     angle-headers
     spirv-headers
     spirv-tools
