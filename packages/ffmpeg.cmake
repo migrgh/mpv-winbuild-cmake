@@ -31,7 +31,6 @@ ExternalProject_Add(ffmpeg
         shaderc
         libplacebo
         libzvbi
-        libaribcaption
         rav1e
         uavs3d
         davs2
@@ -95,7 +94,7 @@ ExternalProject_Add(ffmpeg
         --enable-libplacebo
         --enable-libshaderc
         --enable-libzvbi
-        --enable-libaribcaption
+        --disable-libaribcaption
         --enable-cuda-llvm
         --enable-cuvid
         --enable-nvdec
