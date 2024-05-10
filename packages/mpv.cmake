@@ -13,7 +13,6 @@ ExternalProject_Add(mpv
         vulkan
         shaderc
         libplacebo
-        spirv-cross
     GIT_REPOSITORY https://github.com/mpv-player/mpv.git
     SOURCE_DIR ${SOURCE_LOCATION}
     GIT_CLONE_FLAGS "--filter=tree:0"
@@ -41,7 +40,7 @@ ExternalProject_Add(mpv
         -Drubberband=disabled
         -Dlcms2=enabled
         -Dopenal=disabled
-        -Dspirv-cross=enabled
+        -Dspirv-cross=disabled
         -Dvulkan=enabled
         -Dvapoursynth=disabled
         -Degl-angle=enabled

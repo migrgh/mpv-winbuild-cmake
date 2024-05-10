@@ -4,7 +4,6 @@ ExternalProject_Add(libplacebo
     DEPENDS
         vulkan
         shaderc
-        spirv-cross
         lcms2
         glad
         fast_float
@@ -29,7 +28,6 @@ ExternalProject_Add(libplacebo
         -Ddebug=false
         -Db_ndebug=true
         -Doptimization=3
-        -Dvulkan-registry='${MINGW_INSTALL_PREFIX}/share/vulkan/registry/vk.xml'
         -Ddemos=false
     BUILD_COMMAND ${EXEC} ninja -C <BINARY_DIR>
     INSTALL_COMMAND ${EXEC} ninja -C <BINARY_DIR> install

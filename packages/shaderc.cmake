@@ -1,8 +1,6 @@
 ExternalProject_Add(shaderc
     DEPENDS
         glslang
-        spirv-headers
-        spirv-tools
     GIT_REPOSITORY https://github.com/google/shaderc.git
     SOURCE_DIR ${SOURCE_LOCATION}
     GIT_REMOTE_NAME origin
@@ -22,10 +20,8 @@ ExternalProject_Add(shaderc
         -DSHADERC_SKIP_EXAMPLES=ON
         -DSPIRV_SKIP_EXECUTABLES=ON
         -DSPIRV_SKIP_TESTS=ON
-        -DENABLE_SPIRV_TOOLS_INSTALL=ON
+        -DENABLE_SPIRV_TOOLS_INSTALL=OFF
         -DENABLE_GLSLANG_BINARIES=OFF
-        -DSPIRV_TOOLS_BUILD_STATIC=ON
-        -DSPIRV_TOOLS_LIBRARY_TYPE=STATIC
         -DMINGW_COMPILER_PREFIX=${TARGET_ARCH}
         -DCMAKE_CXX_FLAGS='${CMAKE_CXX_FLAGS} -std=c++17'
     BUILD_COMMAND ${EXEC} LTO_JOB=1 ninja -C <BINARY_DIR>
@@ -34,17 +30,13 @@ ExternalProject_Add(shaderc
 )
 
 get_property(src_glslang TARGET glslang PROPERTY _EP_SOURCE_DIR)
-get_property(src_spirv-headers TARGET spirv-headers PROPERTY _EP_SOURCE_DIR)
-get_property(src_spirv-tools TARGET spirv-tools PROPERTY _EP_SOURCE_DIR)
 
 ExternalProject_Add_Step(shaderc symlink
     DEPENDEES download update patch
     DEPENDERS configure
     WORKING_DIRECTORY <SOURCE_DIR>/third_party
     COMMAND ${CMAKE_COMMAND} -E create_symlink ${src_glslang} glslang
-    COMMAND ${CMAKE_COMMAND} -E create_symlink ${src_spirv-headers} spirv-headers
-    COMMAND ${CMAKE_COMMAND} -E create_symlink ${src_spirv-tools} spirv-tools
-    COMMENT "Symlinking glslang, spirv-headers, spirv-tools"
+    COMMENT "Symlinking glslang"
 )
 
 ExternalProject_Add_Step(shaderc manual-install

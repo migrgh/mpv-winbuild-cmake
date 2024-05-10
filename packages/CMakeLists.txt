@@ -27,9 +27,6 @@ list(APPEND ep
     nvcodec-headers
     xxhash
     angle-headers
-    spirv-headers
-    spirv-tools
-    spirv-cross
     glslang
     vulkan-header
     vulkan

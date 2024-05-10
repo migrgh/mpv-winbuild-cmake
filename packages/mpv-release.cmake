@@ -28,7 +28,6 @@ ExternalProject_Add(mpv-release
         vulkan
         shaderc
         libplacebo
-        spirv-cross
     URL ${LINK}
     SOURCE_DIR ${SOURCE_LOCATION}
     CONFIGURE_COMMAND ${EXEC} CONF=1 meson setup <BINARY_DIR> <SOURCE_DIR>
@@ -54,7 +53,7 @@ ExternalProject_Add(mpv-release
         -Drubberband=disabled
         -Dlcms2=enabled
         -Dopenal=disabled
-        -Dspirv-cross=enabled
+        -Dspirv-cross=disabled
         -Dvulkan=enabled
         -Dvapoursynth=disabled
         -Degl-angle=enabled

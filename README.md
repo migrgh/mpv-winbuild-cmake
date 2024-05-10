@@ -171,10 +171,9 @@ to update flags which will pass on gcc, g++ and etc.
     - harfbuzz
     - freetype2
     - libjpeg
-    - shaderc (with spirv-headers, spirv-tools, glslang)
+    - shaderc (with glslang)
     - vulkan-header
     - vulkan
-    - spirv-cross
     - fribidi
     - amf-headers
     - nvcodec-headers
