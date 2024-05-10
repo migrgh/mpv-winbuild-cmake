@@ -185,7 +185,6 @@ to update flags which will pass on gcc, g++ and etc.
     - freetype2
     - flac
     - mujs
-    - libarchive
     - libjpeg
     - shaderc (with spirv-headers, spirv-tools, glslang)
     - vulkan-header
