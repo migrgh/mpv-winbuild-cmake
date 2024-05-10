@@ -17,7 +17,6 @@ ExternalProject_Add(ffmpeg
         shaderc
         libplacebo
         libzvbi
-        rav1e
         libva
     GIT_REPOSITORY https://github.com/FFmpeg/FFmpeg.git
     SOURCE_DIR ${SOURCE_LOCATION}
@@ -60,7 +59,7 @@ ExternalProject_Add(ffmpeg
         --enable-libx264
         --enable-libx265
         --disable-libaom
-        --enable-librav1e
+        --disable-librav1e
         --disable-libdav1d
         --disable-libdavs2
         --disable-libuavs3d

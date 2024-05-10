@@ -43,7 +43,6 @@ list(APPEND ep
     glad
     fast_float
     libdovi
-    rav1e
     libplacebo
     libva
     libzvbi
