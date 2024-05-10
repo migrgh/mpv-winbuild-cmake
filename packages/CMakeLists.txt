@@ -47,12 +47,10 @@ list(APPEND ep
     libass
     libvpl
     amf-headers
-    avisynth-headers
     nvcodec-headers
     libmysofa
     xxhash
     libwebp
-    vapoursynth
     libbs2b
     openssl
     libssh

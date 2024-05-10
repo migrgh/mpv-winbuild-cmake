@@ -1,7 +1,6 @@
 ExternalProject_Add(ffmpeg
     DEPENDS
         amf-headers
-        avisynth-headers
         nvcodec-headers
         bzip2
         lame
@@ -37,7 +36,6 @@ ExternalProject_Add(ffmpeg
         libzvbi
         libaribcaption
         rav1e
-        vapoursynth
         uavs3d
         davs2
         rubberband
@@ -59,8 +57,8 @@ ExternalProject_Add(ffmpeg
         --enable-gpl
         --enable-version3
         --enable-postproc
-        --enable-avisynth
-        --enable-vapoursynth
+        --disable-avisynth
+        --disable-vapoursynth
         --enable-libass
         --enable-libbluray
         --enable-libdvdnav
