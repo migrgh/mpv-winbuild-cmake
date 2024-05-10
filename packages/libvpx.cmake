@@ -22,7 +22,7 @@ ExternalProject_Add(libvpx
         --disable-decode-perf-tests
         --disable-encode-perf-tests
         --as=yasm
-        --enable-debug
+        --disable-debug
         --enable-vp9-highbitdepth
     BUILD_COMMAND ${MAKE}
     INSTALL_COMMAND ${MAKE} install
