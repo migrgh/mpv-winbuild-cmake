@@ -12,7 +12,6 @@ list(APPEND ep
     bzip2
     libjpeg
     lcms2
-    libmodplug
     libvpx
     libpng
     x264

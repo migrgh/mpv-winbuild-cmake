@@ -10,7 +10,6 @@ ExternalProject_Add(ffmpeg
         libbluray
         libdvdnav
         libdvdread
-        libmodplug
         libpng
         libvpx
         libzimg
@@ -56,7 +55,7 @@ ExternalProject_Add(ffmpeg
         --enable-libfribidi
         --enable-libfontconfig
         --enable-libharfbuzz
-        --enable-libmodplug
+        --disable-libmodplug
         --enable-libopenmpt
         --disable-libmp3lame
         --enable-lcms2
