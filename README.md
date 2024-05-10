@@ -205,7 +205,6 @@ to update flags which will pass on gcc, g++ and etc.
     - libvpl
     - megasdk (with termcap, readline, cryptopp, sqlite, libuv, libsodium)
     - aom
-    - dav1d
     - libplacebo (with glad, fast_float, xxhash)
     - fontconfig
     - libbs2b

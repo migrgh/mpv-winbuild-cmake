@@ -53,7 +53,6 @@ list(APPEND ep
     libmysofa
     aom
     xxhash
-    dav1d
     libwebp
     vapoursynth
     libbs2b
