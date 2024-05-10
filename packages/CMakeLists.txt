@@ -44,7 +44,6 @@ list(APPEND ep
     libmysofa
     xxhash
     libwebp
-    libbs2b
     openssl
     libssh
     libsrt

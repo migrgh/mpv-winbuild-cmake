@@ -13,7 +13,6 @@ ExternalProject_Add(ffmpeg
         libdvdread
         libmodplug
         libpng
-        libbs2b
         libvpx
         libwebp
         libzimg
@@ -70,7 +69,7 @@ ExternalProject_Add(ffmpeg
         --disable-libsoxr
         --disable-libspeex
         --enable-libvorbis
-        --enable-libbs2b
+        --disable-libbs2b
         --enable-librubberband
         --enable-libvpx
         --enable-libwebp
