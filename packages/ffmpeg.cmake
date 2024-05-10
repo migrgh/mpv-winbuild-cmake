@@ -22,7 +22,6 @@ ExternalProject_Add(ffmpeg
         fontconfig
         harfbuzz
         opus
-        speex
         vorbis
         x264
         ${ffmpeg_x265}
@@ -72,7 +71,7 @@ ExternalProject_Add(ffmpeg
         --enable-lcms2
         --enable-libopus
         --disable-libsoxr
-        --enable-libspeex
+        --disable-libspeex
         --enable-libvorbis
         --enable-libbs2b
         --enable-librubberband

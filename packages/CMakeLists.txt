@@ -17,7 +17,6 @@ list(APPEND ep
     vorbis
     opus-dnn
     opus
-    speex
     libmodplug
     libvpx
     libpng
