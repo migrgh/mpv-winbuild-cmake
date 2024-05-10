@@ -5,8 +5,6 @@ list(APPEND ep
     xz
     lzo
     uchardet
-    libsamplerate
-    rubberband
     zlib
     zstd
     bzip2

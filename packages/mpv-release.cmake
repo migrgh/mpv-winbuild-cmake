@@ -24,7 +24,6 @@ ExternalProject_Add(mpv-release
         libjpeg
         libpng
         luajit
-        rubberband
         uchardet
         vulkan
         shaderc
@@ -52,7 +51,7 @@ ExternalProject_Add(mpv-release
         -Dlibbluray=disabled
         -Ddvdnav=disabled
         -Duchardet=enabled
-        -Drubberband=enabled
+        -Drubberband=disabled
         -Dlcms2=enabled
         -Dopenal=disabled
         -Dspirv-cross=enabled

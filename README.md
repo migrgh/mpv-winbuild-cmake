@@ -163,7 +163,6 @@ to update flags which will pass on gcc, g++ and etc.
     - x264
     - x265 (multilib)
     - uchardet
-    - rubberband (with libsamplerate)
     - mpv
     - luajit
     - libvpx

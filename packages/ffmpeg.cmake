@@ -18,7 +18,6 @@ ExternalProject_Add(ffmpeg
         libplacebo
         libzvbi
         rav1e
-        rubberband
         libva
     GIT_REPOSITORY https://github.com/FFmpeg/FFmpeg.git
     SOURCE_DIR ${SOURCE_LOCATION}
@@ -55,7 +54,7 @@ ExternalProject_Add(ffmpeg
         --disable-libspeex
         --disable-libvorbis
         --disable-libbs2b
-        --enable-librubberband
+        --disable-librubberband
         --enable-libvpx
         --disable-libwebp
         --enable-libx264
