@@ -28,7 +28,6 @@ ExternalProject_Add(ffmpeg
         vorbis
         x264
         ${ffmpeg_x265}
-        xvidcore
         libxml2
         libvpl
         libopenmpt
@@ -89,7 +88,7 @@ ExternalProject_Add(ffmpeg
         --disable-libdav1d
         --enable-libdavs2
         --enable-libuavs3d
-        --enable-libxvid
+        --disable-libxvid
         --enable-libzimg
         --enable-openssl
         --enable-libxml2
