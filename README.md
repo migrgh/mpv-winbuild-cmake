@@ -182,7 +182,6 @@ to update flags which will pass on gcc, g++ and etc.
     - lcms2
     - harfbuzz
     - freetype2
-    - flac
     - libjpeg
     - shaderc (with spirv-headers, spirv-tools, glslang)
     - vulkan-header
@@ -212,8 +211,6 @@ to update flags which will pass on gcc, g++ and etc.
     - expat
     - openssl
     - libsdl2
-    - vorbis
-    - ogg
     - bzip2
 
 - Zip

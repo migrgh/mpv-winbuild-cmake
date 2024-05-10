@@ -19,7 +19,6 @@ ExternalProject_Add(ffmpeg
         libmysofa
         fontconfig
         harfbuzz
-        vorbis
         x264
         ${ffmpeg_x265}
         libxml2
@@ -68,7 +67,7 @@ ExternalProject_Add(ffmpeg
         --disable-libopus
         --disable-libsoxr
         --disable-libspeex
-        --enable-libvorbis
+        --disable-libvorbis
         --disable-libbs2b
         --enable-librubberband
         --enable-libvpx
