@@ -193,7 +193,6 @@ to update flags which will pass on gcc, g++ and etc.
     - zlib (zlib-ng)
     - zstd
     - expat
-    - openssl
     - bzip2
 
 - Zip

@@ -4,7 +4,6 @@ ExternalProject_Add(ffmpeg
         nvcodec-headers
         bzip2
         lcms2
-        openssl
         libass
         libpng
         libvpx
@@ -68,7 +67,7 @@ ExternalProject_Add(ffmpeg
         --disable-libuavs3d
         --disable-libxvid
         --enable-libzimg
-        --enable-openssl
+        --disable-openssl
         --disable-libxml2
         --disable-libmysofa
         --disable-libssh
