@@ -189,7 +189,6 @@ to update flags which will pass on gcc, g++ and etc.
     - fontconfig
     - libsrt
     - uavs3d
-    - libsixel
     - libdovi
     - libva
     - libzvbi
