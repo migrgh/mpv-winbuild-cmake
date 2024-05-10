@@ -20,7 +20,6 @@ ExternalProject_Add(ffmpeg
         libplacebo
         libzvbi
         rav1e
-        uavs3d
         rubberband
         libva
     GIT_REPOSITORY https://github.com/FFmpeg/FFmpeg.git
@@ -67,7 +66,7 @@ ExternalProject_Add(ffmpeg
         --enable-librav1e
         --disable-libdav1d
         --disable-libdavs2
-        --enable-libuavs3d
+        --disable-libuavs3d
         --disable-libxvid
         --enable-libzimg
         --enable-openssl

@@ -188,7 +188,6 @@ to update flags which will pass on gcc, g++ and etc.
     - libplacebo (with glad, fast_float, xxhash)
     - fontconfig
     - libsrt
-    - uavs3d
     - libdovi
     - libva
     - libzvbi

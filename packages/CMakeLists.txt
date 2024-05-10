@@ -37,7 +37,6 @@ list(APPEND ep
     openssl
     libsrt
     highway
-    uavs3d
     angle-headers
     spirv-headers
     spirv-tools
