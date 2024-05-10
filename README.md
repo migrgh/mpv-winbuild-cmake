@@ -204,7 +204,6 @@ to update flags which will pass on gcc, g++ and etc.
     - nvcodec-headers
     - libvpl
     - megasdk (with termcap, readline, cryptopp, sqlite, libuv, libsodium)
-    - aom
     - libplacebo (with glad, fast_float, xxhash)
     - fontconfig
     - libbs2b
