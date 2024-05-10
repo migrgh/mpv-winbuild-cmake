@@ -49,7 +49,6 @@ list(APPEND ep
     ffmpeg
     mpv
     mpv-release
-    mpv-packaging
 )
 foreach(package IN LISTS ep)
     if(NOT ${SINGLE_SOURCE_LOCATION} STREQUAL "")
