@@ -21,7 +21,6 @@ list(APPEND ep
     fribidi
     expat
     mbedtls
-    libxml2
     brotli
     freetype2
     libudfread

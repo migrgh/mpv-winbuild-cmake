@@ -183,7 +183,6 @@ to update flags which will pass on gcc, g++ and etc.
     - spirv-cross
     - fribidi
     - curl
-    - libxml2
     - amf-headers
     - nvcodec-headers
     - libvpl

@@ -15,7 +15,6 @@ ExternalProject_Add(ffmpeg
         harfbuzz
         x264
         ${ffmpeg_x265}
-        libxml2
         libvpl
         libopenmpt
         libjxl
@@ -74,7 +73,7 @@ ExternalProject_Add(ffmpeg
         --disable-libxvid
         --enable-libzimg
         --enable-openssl
-        --enable-libxml2
+        --disable-libxml2
         --enable-libmysofa
         --disable-libssh
         --enable-libsrt
