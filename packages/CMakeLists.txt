@@ -13,7 +13,6 @@ list(APPEND ep
     libvpx
     libpng
     x264
-    x265
     libiconv
     luajit
     fribidi

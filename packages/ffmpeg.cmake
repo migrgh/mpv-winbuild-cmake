@@ -11,7 +11,6 @@ ExternalProject_Add(ffmpeg
         fontconfig
         harfbuzz
         x264
-        ${ffmpeg_x265}
         libvpl
         libopenmpt
         shaderc
@@ -57,7 +56,7 @@ ExternalProject_Add(ffmpeg
         --enable-libvpx
         --disable-libwebp
         --enable-libx264
-        --enable-libx265
+        --disable-libx265
         --disable-libaom
         --disable-librav1e
         --disable-libdav1d

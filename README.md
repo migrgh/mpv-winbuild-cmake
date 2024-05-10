@@ -161,7 +161,6 @@ to update flags which will pass on gcc, g++ and etc.
     - FFmpeg
     - xz
     - x264
-    - x265 (multilib)
     - uchardet
     - mpv
     - luajit
