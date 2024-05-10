@@ -35,7 +35,6 @@ list(APPEND ep
     nvcodec-headers
     xxhash
     openssl
-    libsrt
     highway
     angle-headers
     spirv-headers

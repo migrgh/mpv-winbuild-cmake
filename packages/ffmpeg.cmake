@@ -5,7 +5,6 @@ ExternalProject_Add(ffmpeg
         bzip2
         lcms2
         openssl
-        libsrt
         libass
         libpng
         libvpx
@@ -73,7 +72,7 @@ ExternalProject_Add(ffmpeg
         --disable-libxml2
         --disable-libmysofa
         --disable-libssh
-        --enable-libsrt
+        --disable-libsrt
         --enable-libvpl
         --disable-libjxl
         --enable-libplacebo
