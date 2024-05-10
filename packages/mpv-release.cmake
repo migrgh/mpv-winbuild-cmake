@@ -20,8 +20,6 @@ ExternalProject_Add(mpv-release
         fribidi
         lcms2
         libass
-        libdvdnav
-        libdvdread
         libiconv
         libjpeg
         libpng
@@ -52,7 +50,7 @@ ExternalProject_Add(mpv-release
         -Dsdl2=disabled
         -Dlibarchive=disable
         -Dlibbluray=enabled
-        -Ddvdnav=enabled
+        -Ddvdnav=disabled
         -Duchardet=enabled
         -Drubberband=enabled
         -Dlcms2=enabled

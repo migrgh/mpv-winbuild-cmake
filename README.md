@@ -169,9 +169,6 @@ to update flags which will pass on gcc, g++ and etc.
     - libvpx
     - libpng
     - libzimg (with graphengine)
-    - libdvdread
-    - libdvdnav
-    - libdvdcss
     - libudfread
     - libbluray
     - libunibreak
