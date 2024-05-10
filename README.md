@@ -189,7 +189,6 @@ to update flags which will pass on gcc, g++ and etc.
     - libplacebo (with glad, fast_float, xxhash)
     - fontconfig
     - libsrt
-    - libjxl (with brotli, highway)
     - uavs3d
     - libsixel
     - libdovi
