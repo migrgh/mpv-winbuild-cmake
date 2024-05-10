@@ -30,7 +30,6 @@ ExternalProject_Add(ffmpeg
         libzvbi
         rav1e
         uavs3d
-        davs2
         rubberband
         libva
         openal-soft
@@ -77,7 +76,7 @@ ExternalProject_Add(ffmpeg
         --disable-libaom
         --enable-librav1e
         --disable-libdav1d
-        --enable-libdavs2
+        --disable-libdavs2
         --enable-libuavs3d
         --disable-libxvid
         --enable-libzimg
