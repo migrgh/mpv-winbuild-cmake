@@ -184,7 +184,6 @@ to update flags which will pass on gcc, g++ and etc.
     - fontconfig
     - libdovi
     - libva
-    - libzvbi
     - zlib (zlib-ng)
     - zstd
     - expat

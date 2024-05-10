@@ -43,7 +43,6 @@ list(APPEND ep
     libdovi
     libplacebo
     libva
-    libzvbi
     ffmpeg
     mpv
     mpv-release

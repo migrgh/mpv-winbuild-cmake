@@ -15,7 +15,6 @@ ExternalProject_Add(ffmpeg
         libopenmpt
         shaderc
         libplacebo
-        libzvbi
         libva
     GIT_REPOSITORY https://github.com/FFmpeg/FFmpeg.git
     SOURCE_DIR ${SOURCE_LOCATION}
@@ -73,7 +72,7 @@ ExternalProject_Add(ffmpeg
         --disable-libjxl
         --enable-libplacebo
         --enable-libshaderc
-        --enable-libzvbi
+        --disable-libzvbi
         --disable-libaribcaption
         --enable-cuda-llvm
         --enable-cuvid
