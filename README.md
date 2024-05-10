@@ -170,7 +170,6 @@ to update flags which will pass on gcc, g++ and etc.
     - libpng
     - libzimg (with graphengine)
     - libudfread
-    - libbluray
     - libunibreak
     - libass
     - libmysofa

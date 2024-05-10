@@ -36,7 +36,7 @@ ExternalProject_Add(mpv
         -Djavascript=disabled
         -Dsdl2=disabled
         -Dlibarchive=disable
-        -Dlibbluray=enabled
+        -Dlibbluray=disabled
         -Ddvdnav=disabled
         -Duchardet=enabled
         -Drubberband=enabled
