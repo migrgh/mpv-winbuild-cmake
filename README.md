@@ -164,7 +164,6 @@ to update flags which will pass on gcc, g++ and etc.
     - x265 (multilib)
     - uchardet
     - rubberband (with libsamplerate)
-    - opus
     - openal-soft
     - mpv
     - luajit
@@ -185,7 +184,6 @@ to update flags which will pass on gcc, g++ and etc.
     - harfbuzz
     - freetype2
     - flac
-    - opus-tools
     - mujs
     - libarchive
     - libjpeg

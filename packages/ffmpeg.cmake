@@ -21,7 +21,6 @@ ExternalProject_Add(ffmpeg
         libmysofa
         fontconfig
         harfbuzz
-        opus
         vorbis
         x264
         ${ffmpeg_x265}
@@ -69,7 +68,7 @@ ExternalProject_Add(ffmpeg
         --enable-libopenmpt
         --enable-libmp3lame
         --enable-lcms2
-        --enable-libopus
+        --disable-libopus
         --disable-libsoxr
         --disable-libspeex
         --enable-libvorbis
