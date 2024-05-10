@@ -7,7 +7,6 @@ ExternalProject_Add(ffmpeg
         libass
         libpng
         libvpx
-        libzimg
         fontconfig
         harfbuzz
         x264
@@ -61,7 +60,7 @@ ExternalProject_Add(ffmpeg
         --disable-libdavs2
         --disable-libuavs3d
         --disable-libxvid
-        --enable-libzimg
+        --disable-libzimg
         --disable-openssl
         --disable-libxml2
         --disable-libmysofa

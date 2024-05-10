@@ -19,8 +19,6 @@ list(APPEND ep
     brotli
     freetype2
     harfbuzz
-    graphengine
-    libzimg
     fontconfig
     libunibreak
     libass

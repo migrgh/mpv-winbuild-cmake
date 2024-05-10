@@ -165,7 +165,6 @@ to update flags which will pass on gcc, g++ and etc.
     - luajit
     - libvpx
     - libpng
-    - libzimg (with graphengine)
     - libunibreak
     - libass
     - lcms2
