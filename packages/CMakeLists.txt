@@ -23,7 +23,6 @@ list(APPEND ep
     mbedtls
     brotli
     freetype2
-    libudfread
     harfbuzz
     graphengine
     libzimg
