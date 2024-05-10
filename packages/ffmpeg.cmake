@@ -10,7 +10,6 @@ ExternalProject_Add(ffmpeg
         libpng
         libvpx
         libzimg
-        libmysofa
         fontconfig
         harfbuzz
         x264
@@ -73,7 +72,7 @@ ExternalProject_Add(ffmpeg
         --enable-libzimg
         --enable-openssl
         --disable-libxml2
-        --enable-libmysofa
+        --disable-libmysofa
         --disable-libssh
         --enable-libsrt
         --enable-libvpl

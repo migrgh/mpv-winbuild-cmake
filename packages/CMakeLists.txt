@@ -33,7 +33,6 @@ list(APPEND ep
     libvpl
     amf-headers
     nvcodec-headers
-    libmysofa
     xxhash
     openssl
     libsrt
