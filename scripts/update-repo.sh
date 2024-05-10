@@ -10,7 +10,7 @@ main() {
 
         if [[ -d "$src_dir/.git" ]] ; then
             # Skip updating these packages
-            if [[ $name =~ ^(angle|megasdk)$ ]]; then
+            if [[ $name =~ ^(angle)$ ]]; then
                 continue
             fi
 
