@@ -41,7 +41,6 @@ list(APPEND ep
     nvcodec-headers
     libmysofa
     xxhash
-    libwebp
     openssl
     libssh
     libsrt

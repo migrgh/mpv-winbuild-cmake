@@ -14,7 +14,6 @@ ExternalProject_Add(ffmpeg
         libmodplug
         libpng
         libvpx
-        libwebp
         libzimg
         libmysofa
         fontconfig
@@ -70,7 +69,7 @@ ExternalProject_Add(ffmpeg
         --disable-libbs2b
         --enable-librubberband
         --enable-libvpx
-        --enable-libwebp
+        --disable-libwebp
         --enable-libx264
         --enable-libx265
         --disable-libaom

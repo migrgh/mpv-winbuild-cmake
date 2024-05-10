@@ -168,7 +168,6 @@ to update flags which will pass on gcc, g++ and etc.
     - mpv
     - luajit
     - libvpx
-    - libwebp
     - libpng
     - libzimg (with graphengine)
     - libdvdread
