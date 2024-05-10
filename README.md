@@ -180,7 +180,6 @@ to update flags which will pass on gcc, g++ and etc.
     - libass
     - libmysofa
     - lcms2
-    - lame
     - harfbuzz
     - freetype2
     - flac
