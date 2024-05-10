@@ -171,7 +171,6 @@ to update flags which will pass on gcc, g++ and etc.
     - libvpx
     - libwebp
     - libpng
-    - libsoxr
     - libzimg (with graphengine)
     - libdvdread
     - libdvdnav
