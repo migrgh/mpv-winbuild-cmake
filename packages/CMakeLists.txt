@@ -9,7 +9,6 @@ list(APPEND ep
     bzip2
     libjpeg
     lcms2
-    libvpx
     libpng
     x264
     libiconv
