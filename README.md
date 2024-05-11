@@ -188,7 +188,6 @@ to update flags which will pass on gcc, g++ and etc.
     - bzip2
 
 - Zip
-    - lzo (2.10)
     - libopenmpt (0.7.6)
     - libiconv (1.17)
     - ~~gmp (6.3.0)~~
