@@ -6,7 +6,6 @@ ExternalProject_Add(ffmpeg
         lcms2
         libass
         libpng
-        libvpx
         fontconfig
         harfbuzz
         x264
@@ -50,7 +49,7 @@ ExternalProject_Add(ffmpeg
         --disable-libvorbis
         --disable-libbs2b
         --disable-librubberband
-        --enable-libvpx
+        --disable-libvpx
         --disable-libwebp
         --enable-libx264
         --disable-libx265
