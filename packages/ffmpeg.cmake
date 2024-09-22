@@ -3,7 +3,6 @@ ExternalProject_Add(ffmpeg
         amf-headers
         ${nvcodec_headers}
         bzip2
-        lame
         lcms2
         openssl
         libsrt
@@ -59,7 +58,7 @@ ExternalProject_Add(ffmpeg
         --enable-libharfbuzz
         --disable-libmodplug
         --enable-libopenmpt
-        --enable-libmp3lame
+        --disable-libmp3lame
         --enable-lcms2
         --enable-libopus
         --disable-libsoxr

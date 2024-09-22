@@ -173,7 +173,6 @@ to update flags which will pass on gcc, g++ and etc.
     - libunibreak
     - libass
     - lcms2
-    - lame
     - harfbuzz
     - freetype2
     - flac
