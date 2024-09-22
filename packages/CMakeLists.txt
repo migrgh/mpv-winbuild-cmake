@@ -65,7 +65,6 @@ list(APPEND ep
     svtav1
     libplacebo
     libva
-    libzvbi
     libaribcaption
     libsixel
     ffmpeg
