@@ -171,9 +171,6 @@ to update flags which will pass on gcc, g++ and etc.
     - libwebp
     - libpng
     - libsoxr
-    - libdvdread
-    - libdvdnav
-    - libdvdcss
     - libudfread
     - libbluray
     - libunibreak

@@ -24,9 +24,6 @@ list(APPEND ep
     libpng
     x264
     x265
-    libdvdcss
-    libdvdread
-    libdvdnav
     libiconv
     luajit
     fribidi
