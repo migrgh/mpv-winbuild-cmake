@@ -42,7 +42,6 @@ list(APPEND ep
     dav1d
     libwebp
     openssl
-    libssh
     libsrt
     highway
     libjxl

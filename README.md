@@ -193,7 +193,6 @@ to update flags which will pass on gcc, g++ and etc.
     - dav1d
     - libplacebo (with glad, fast_float, xxhash)
     - fontconfig
-    - libssh
     - libsrt
     - libjxl (with brotli, highway)
     - libmodplug
