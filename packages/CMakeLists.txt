@@ -34,7 +34,6 @@ list(APPEND ep
     freetype2
     libudfread
     harfbuzz
-    libsoxr
     fontconfig
     libunibreak
     libass

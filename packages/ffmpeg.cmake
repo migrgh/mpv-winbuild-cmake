@@ -11,7 +11,6 @@ ExternalProject_Add(ffmpeg
         libass
         libmodplug
         libpng
-        libsoxr
         libvpx
         libwebp
         fontconfig
@@ -69,7 +68,7 @@ ExternalProject_Add(ffmpeg
         --enable-libmp3lame
         --enable-lcms2
         --enable-libopus
-        --enable-libsoxr
+        --disable-libsoxr
         --enable-libspeex
         --enable-libvorbis
         --disable-libbs2b
