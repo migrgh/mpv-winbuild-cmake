@@ -15,7 +15,6 @@ list(APPEND ep
     opus-dnn
     opus
     libvpx
-    xvidcore
     libpng
     x264
     x265

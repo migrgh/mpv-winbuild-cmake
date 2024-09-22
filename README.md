@@ -207,7 +207,6 @@ to update flags which will pass on gcc, g++ and etc.
     - bzip2
 
 - Zip
-    - xvidcore (1.3.7)
     - libiconv (1.17)
     - ~~gmp (6.3.0)~~
     - ~~mbedtls (3.5.0)~~
