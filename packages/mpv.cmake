@@ -4,7 +4,6 @@ ExternalProject_Add(mpv
         ffmpeg
         fribidi
         lcms2
-        libarchive
         libass
         libdvdnav
         libdvdread
@@ -41,7 +40,7 @@ ExternalProject_Add(mpv
         -Dlua=enabled
         -Djavascript=enabled
         -Dsdl2=enabled
-        -Dlibarchive=enabled
+        -Dlibarchive=disabled
         -Dlibbluray=enabled
         -Ddvdnav=enabled
         -Duchardet=enabled
