@@ -213,7 +213,6 @@ to update flags which will pass on gcc, g++ and etc.
     - expat
     - openssl
     - libsdl2
-    - speex
     - vorbis
     - ogg
     - bzip2
