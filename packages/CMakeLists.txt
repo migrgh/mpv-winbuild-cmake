@@ -16,7 +16,6 @@ list(APPEND ep
     vorbis
     opus-dnn
     opus
-    libmodplug
     libvpx
     xvidcore
     libpng

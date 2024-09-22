@@ -195,7 +195,6 @@ to update flags which will pass on gcc, g++ and etc.
     - fontconfig
     - libsrt
     - libjxl (with brotli, highway)
-    - libmodplug
     - uavs3d
     - davs2
     - libsixel
