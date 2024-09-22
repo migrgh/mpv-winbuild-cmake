@@ -170,7 +170,6 @@ to update flags which will pass on gcc, g++ and etc.
     - libvpx
     - libwebp
     - libpng
-    - libudfread
     - libunibreak
     - libass
     - lcms2
