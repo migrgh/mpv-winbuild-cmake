@@ -46,7 +46,7 @@ ExternalProject_Add(mpv-release
         -Db_lto=true
         ${mpv_lto_mode}
         -Dlibmpv=true
-        -Dpdf-build=enabled
+        -Dpdf-build=disables
         -Dlua=enabled
         -Djavascript=disabled
         -Dsdl2=enabled
