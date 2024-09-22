@@ -185,7 +185,6 @@ to update flags which will pass on gcc, g++ and etc.
     - vulkan
     - spirv-cross
     - fribidi
-    - ~~nettle~~
     - curl
     - libxml2
     - amf-headers
