@@ -194,7 +194,6 @@ to update flags which will pass on gcc, g++ and etc.
     - fontconfig
     - libsrt
     - libjxl (with brotli, highway)
-    - libsixel
     - libdovi
     - libva
     - svtav1
