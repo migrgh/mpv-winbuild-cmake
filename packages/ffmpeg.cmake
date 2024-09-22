@@ -19,7 +19,6 @@ ExternalProject_Add(ffmpeg
         xvidcore
         libxml2
         libvpl
-        libopenmpt
         libjxl
         shaderc
         libplacebo
@@ -56,7 +55,7 @@ ExternalProject_Add(ffmpeg
         --enable-libfontconfig
         --enable-libharfbuzz
         --disable-libmodplug
-        --enable-libopenmpt
+        --disable-libopenmpt
         --disable-libmp3lame
         --enable-lcms2
         --enable-libopus
