@@ -41,8 +41,6 @@ list(APPEND ep
     libbluray
     harfbuzz
     libsoxr
-    graphengine
-    libzimg
     fontconfig
     libunibreak
     libass

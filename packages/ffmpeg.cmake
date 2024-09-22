@@ -19,7 +19,6 @@ ExternalProject_Add(ffmpeg
         libbs2b
         libvpx
         libwebp
-        libzimg
         libmysofa
         fontconfig
         harfbuzz
@@ -92,7 +91,7 @@ ExternalProject_Add(ffmpeg
         ${ffmpeg_davs2_cmd}
         ${ffmpeg_uavs3d_cmd}
         --enable-libxvid
-        --enable-libzimg
+        --disable-libzimg
         --enable-openssl
         --enable-libxml2
         --enable-libmysofa
