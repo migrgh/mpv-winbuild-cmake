@@ -67,7 +67,6 @@ list(APPEND ep
     opusfile
     libopusenc
     opus-tools
-    libuv
     libsodium
 )
 foreach(package IN LISTS ep)
@@ -86,7 +85,7 @@ list(LENGTH ep ep_length)
 message(STATUS "Parsing ${ep_length} packages")
 
 # Exclude packages which dont depend on mpv when update
-list(APPEND removed "flac" "opusfile" "libopusenc" "opus-tools" "libuv" "libsodium" "curl" "mbedtls" "gmp")
+list(APPEND removed "flac" "opusfile" "libopusenc" "opus-tools" "libsodium" "curl" "mbedtls" "gmp")
 list(REMOVE_ITEM repo ${removed})
 list(REMOVE_ITEM ep ${removed})
 list(TRANSFORM repo APPEND "-force-update" OUTPUT_VARIABLE update)
