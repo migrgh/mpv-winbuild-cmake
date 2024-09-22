@@ -1,3 +1,12 @@
+## debian 12
+sudo apt install python-is-python3 curl build-essential checkinstall bison flex gettext git mercurial subversion ninja-build gyp cmake yasm nasm automake pkgconf libtool libtool-bin gcc-multilib g++-multilib clang libgmp-dev libmpfr-dev libmpc-dev libgcrypt-dev gperf ragel texinfo autopoint re2c asciidoc python3-pip docbook2x unzip p7zip-full meson python3-jinja2 rst2pdf python3-full
+
+python3 -m venv meson
+
+~/meson/bin/pip install jinja2 meson
+
+
+
 # CMake-based MinGW-w64 Cross Toolchain
 
 This thing’s primary use is to build Windows binaries of mpv.
