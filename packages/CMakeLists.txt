@@ -34,7 +34,6 @@ list(APPEND ep
     brotli
     freetype2
     libudfread
-    libbluray
     harfbuzz
     libsoxr
     fontconfig
