@@ -51,7 +51,6 @@ list(APPEND ep
     uavs3d
     davs2
     angle-headers
-    mujs
     spirv-headers
     spirv-tools
     spirv-cross

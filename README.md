@@ -179,7 +179,6 @@ to update flags which will pass on gcc, g++ and etc.
     - freetype2
     - flac
     - opus-tools
-    - mujs
     - libjpeg
     - shaderc (with spirv-headers, spirv-tools, glslang)
     - vulkan-header
