@@ -193,7 +193,6 @@ to update flags which will pass on gcc, g++ and etc.
     - curl
     - libxml2
     - amf-headers
-    - avisynth-headers
     - nvcodec-headers
     - libvpl
     - megasdk (with termcap, readline, cryptopp, sqlite, libuv, libsodium)
